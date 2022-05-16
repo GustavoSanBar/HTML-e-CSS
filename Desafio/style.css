@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo{
+    padding: 25px; /* Define uma a distância entre o conteúdo de um elemento e suas bordas. */
+    text-align: center; /* Alinhamento do texto */
+    max-width: 600px; /* Tamanho da parte escrita */
+    
+}
+
+.texto{
+    padding: 10px;
+    
+}
+
+
+.socias{
+    gap: 10px; /* Espaçamento entre itens*/
+    padding: 15px;
+    display: flex; /* Configura o formato dos itens */
+    flex-direction: row; /* Coloca em linha */
+       
+}
+
+.github{
+    height: 30px;/* tamanho da imagem */
+    border-radius: 10px;/* borda da imagem */
+}
+
+.linkedin{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.insta{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.face{
+    height: 30px;
+    border-radius: 10px;
+}
