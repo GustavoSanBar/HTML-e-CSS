@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: grey;
+            color: white;
+        }
+        tfoot{
+            background-color: grey;
+            color: white;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10x;
+            background-color: rgb(180, 180, 180);
+        }
+        tbody > tr:nth-child(odd){ /* odd=impar - even=par  */
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- Anatomia para tabelas grandes
+    Table
+        Caption -- Legenda da tabela
+        thead
+            tr, td, th
+        tbody
+            tr, td, th
+        tfoot
+            tr, td, th
+     -->
+     <table>
+        <caption> Os 3 estados mais populosos doi Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px;">População</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td>45.979.049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>21.468.791</td>
+                </tr>
+                <tr>
+                    <td>Rio de janeiro</td>
+                    <td>17.264.976</td>
+                </tr>
+        </tbody>
+        <tfoot>
+                <tr>
+                    <th scope="row">Total de Habitantes</td>
+                    <td>Gnt p/ car*****</td>
+                </tr>
+                
+        </tfoot>
+     </table>
+</body>
+</html>
