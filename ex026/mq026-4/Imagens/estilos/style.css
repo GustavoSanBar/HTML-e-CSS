@@ -12,14 +12,13 @@
 
 html{
     
-    height: 100 vh;
+    height: 100vh;
 }
 
 body{
-    background: black url(../back-phone.jpg) no-repeat;
+    background: url(../back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-
     
 }
 
